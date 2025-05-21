@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exclusive Adult Offers</title>
+    <style>
+        /* Reset & Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* Header Styles */
+        header {
+            background-color: #ff4757;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-bottom: 30px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        header h1 {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+        
+        header .warning {
+            font-size: 16px;
+            font-weight: bold;
+        }
+        
+        /* Offers Grid */
+        .offers-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+        
+        .offer-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .offer-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .offer-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .offer-content {
+            padding: 20px;
+        }
+        
+        .offer-title {
+            font-size: 20px;
+            color: #ff4757;
+            margin-bottom: 10px;
+        }
+        
+        .offer-desc {
+            color: #666;
+            margin-bottom: 20px;
+            font-size: 15px;
+        }
+        
+        .offer-btn {
+            display: inline-block;
+            background-color: #ff4757;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            text-align: center;
+            transition: background-color 0.3s;
+            width: 100%;
+        }
+        
+        .offer-btn:hover {
+            background-color: #e8413b;
+        }
+        
+        /* Footer */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #666;
+            font-size: 14px;
+        }
+        
+        /* Responsive Adjustments */
+        @media (max-width: 768px) {
+            .offers-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            header h1 {
+                font-size: 20px;
+            }
+            
+            .offer-title {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Exclusive Adult Offers</h1>
+            <div class="warning">Warning: This website is for adults only (18+)</div>
+        </header>
+        
+        <div class="offers-grid">
+            <!-- Offer 1: Dating -->
+            <div class="offer-card">
+                <img src="https://via.placeholder.com/600x400?text=Dating+Offer" alt="Dating Offer" class="offer-image">
+                <div class="offer-content">
+                    <h3 class="offer-title">Premium Dating</h3>
+                    <p class="offer-desc">Meet your perfect match today</p>
+                    <a href="https://bit.ly/your-dating-link" class="offer-btn">Start Now – It's Free</a>
+</div>
+            </div>
+            
+            <!-- Offer 2: Gay -->
+            <div class="offer-card">
+                <img src="https://via.placeholder.com/600x400?text=Gay+Offer" alt="Gay Dating Offer" class="offer-image">
+                <div class="offer-content">
+                    <h3 class="offer-title">Gay Dating</h3>
+                    <p class="offer-desc">Find your ideal partner</p>
+                    <a href="https://bit.ly/your-gay-link" class="offer-btn">Start Now – It's Free</a>
+                </div>
+            </div>
+            
+            <!-- Offer 3: Lesbian -->
+            <div class="offer-card">
+                <img src="https://via.placeholder.com/600x400?text=Lesbian+Offer" alt="Lesbian Dating Offer" class="offer-image">
+                <div class="offer-content">
+                    <h3 class="offer-title">Lesbian Dating</h3>
+                    <p class="offer-desc">Connect with your soulmate</p>
+                    <a href="https://bit.ly/your-lesbian-link" class="offer-btn">Start Now – It's Free</a>
+                </div>
+            </div>
+            
+            <!-- Offer 4: Surveys -->
+            <div class="offer-card">
+                <img src="https://via.placeholder.com/600x400?text=Surveys+Offer" alt="Surveys Offer" class="offer-image">
+                <div class="offer-content">
+                    <h3 class="offer-title">Earn Rewards</h3>
+                    <p class="offer-desc">Get points and win prizes</p>
+                    <a href="https://bit.ly/your-survey-link" class="offer-btn">Start Now – It's Free</a>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>All rights reserved &copy; 2023 | This website is for adults (18+) only</p>
+        </footer>
+    </div>
+</body>
+</html>
